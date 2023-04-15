@@ -1,0 +1,711 @@
+﻿++Solution 'Elemanlar.net' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:Elemanlar.net.sln
+++EntityLayer
+i:{00000000-0000-0000-0000-000000000000}:EntityLayer
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\entitylayer.csproj
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\entitylayer.csproj
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\entitylayer.csproj
+++Dependencies
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:>847
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:>845
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:>844
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:>846
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1348
+++Concrate
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\concrate\
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\source\repos\elemanlar.net\businesslayer\concrate\
+++Basvurular.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\basvurular.cs
+++Bolumler.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\bolumler.cs
+++CalismaSekli.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\calismasekli.cs
+++EgitimSeviyesi.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\egitimseviyesi.cs
+++FavoriIlanlar.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\favoriilanlar.cs
+++Firmalar.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\firmalar.cs
+++HesapTuru.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\hesapturu.cs
+++IlanSikayetleri.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\ilansikayetleri.cs
+++IlanTuru.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\ilanturu.cs
+++IsIlanlari.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\isilanlari.cs
+++Kullanıcılar.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\kullanıcılar.cs
+++Ozgecmis.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\ozgecmis.cs
+++Ozgecmisler.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\ozgecmisler.cs
+++Pozisyonlar.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\pozisyonlar.cs
+++Sehirler.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\sehirler.cs
+++SehirlerVeIlceler.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\sehirlerveilceler.cs
+++Sektorler.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\sektorler.cs
+++UniversiteBolumu.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\concrate\universitebolumu.cs
+++DBResult.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\dbresult.cs
+++IsIlanlariViewModel.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\isilanlariviewmodel.cs
+++Analyzers
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:analyzers
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:analyzers
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:analyzers
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:analyzers
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:analyzers
+++Frameworks
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:frameworks
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:frameworks
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:frameworks
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:frameworks
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:frameworks
+++Packages
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:packages
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:packages
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:packages
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:packages
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:packages
+++Microsoft.CodeAnalysis.Analyzers
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.NETCore.App
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\microsoft.netcore.app
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\microsoft.netcore.app
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\source\repos\elemanlar.net\businesslayer\microsoft.netcore.app
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:c:\users\burak erdem\source\repos\elemanlar.net\corelayer\microsoft.netcore.app
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\microsoft.netcore.app
+++Microsoft.AspNetCore.Mvc.Razor (2.2.0)
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:>1393
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:>1382
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:>1368
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:>1360
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1410
+++Microsoft.AspNetCore.Razor.Runtime (2.2.0)
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:>1392
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:>1379
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:>1367
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:>1359
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1405
+++DataAccessLayer
+i:{00000000-0000-0000-0000-000000000000}:DataAccessLayer
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\dataaccesslayer.csproj
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\dataaccesslayer.csproj
+++Abstract
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\abstract\
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\source\repos\elemanlar.net\businesslayer\abstract\
+++Migrations
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\migrations\
+++Repositories
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\repositories\
+++Class1.cs
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\class1.cs
+i:{eef980ae-9099-4b2a-8709-ed7a3d559097}:c:\users\burak erdem\source\repos\elemanlar.net\corelayer\class1.cs
+++Projects
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:projects
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:projects
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:projects
+++Context.cs
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\concrate\context.cs
+++20220925165457_mig1.cs
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\migrations\20220925165457_mig1.cs
+++ContextModelSnapshot.cs
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\migrations\contextmodelsnapshot.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.EntityFrameworkCore (5.0.9)
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:>1378
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1404
+++Microsoft.EntityFrameworkCore.Design (5.0.9)
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:>1381
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1407
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.9)
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:>1380
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1406
+++Microsoft.EntityFrameworkCore.Tools (5.0.9)
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:>1383
+++20220925165457_mig1.Designer.cs
+i:{42d16c2c-4db6-4fe1-94eb-bdd0c32408c8}:c:\users\burak erdem\source\repos\elemanlar.net\dataaccesslayer\migrations\20220925165457_mig1.designer.cs
+++BusinessLayer
+i:{00000000-0000-0000-0000-000000000000}:BusinessLayer
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\businesslayer\businesslayer.csproj
+++IDenemeService.cs
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\source\repos\elemanlar.net\businesslayer\abstract\idenemeservice.cs
+++IKullaniciService.cs
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\source\repos\elemanlar.net\businesslayer\abstract\ikullaniciservice.cs
+++DenemeManager.cs
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\source\repos\elemanlar.net\businesslayer\concrate\denememanager.cs
+++KullaniciManager.cs
+i:{4dd42752-4106-41f4-a460-4755f9ab8166}:c:\users\burak erdem\source\repos\elemanlar.net\businesslayer\concrate\kullanicimanager.cs
+++CoreLayer
+i:{00000000-0000-0000-0000-000000000000}:CoreLayer
+++Elemanlar.net
+i:{00000000-0000-0000-0000-000000000000}:Elemanlar.net
+++Connected Services 
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1349
+++Properties
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\properties\
+++wwwroot
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\
+++Controllers
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\controllers\
+++js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\js\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\js\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\js\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\js\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\js\
+++Models
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\models\
+++Views
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\
+++Home
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\
+++Basvurular.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\basvurular.cshtml
+++deneme.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\deneme.cshtml
+++Denemes.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\denemes.cshtml
+++FavoriIlanlar.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\favoriilanlar.cshtml
+++IlaniIncele.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\ilaniincele.cshtml
+++Index.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\index.cshtml
+++Ozgecmis.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\ozgecmis.cshtml
+++OzgecmisEkle.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\ozgecmisekle.cshtml
+++OzgecmisGoruntule.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\ozgecmisgoruntule.cshtml
+++Privacy.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\privacy.cshtml
+++sss.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\home\sss.cshtml
+++Register
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\register\
+++Shared
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\shared\
+++_Layout.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\shared\error.cshtml
+++_ViewImports.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\_viewstart.cshtml
+++appsettings.json
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\appsettings.json
+++Program.cs
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\program.cs
+++Startup.cs
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\startup.cs
+++No service dependencies discovered
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1350
+++launchSettings.json
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\properties\launchsettings.json
+++bigimg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\
+++css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\css\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\css\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\css\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\
+++lib
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\
+++favicon.ico
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\favicon.ico
+++AuthController.cs
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\controllers\authcontroller.cs
+++HomeController.cs
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\controllers\homecontroller.cs
+++RegisterController.cs
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\controllers\registercontroller.cs
+++ilanincele.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\js\ilanincele.js
+++ErrorViewModel.cs
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\models\errorviewmodel.cs
+++KayitOl.cshtml
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\views\register\kayitol.cshtml
+++appsettings.Development.json
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\program files\dotnet\sdk\6.0.113\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\microsoft.aspnetcore.app
+++Microsoft.AspNetCore.Authentication.Facebook (5.0.2)
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1408
+++Microsoft.AspNetCore.Authentication.Google (5.0.2)
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1409
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:>1411
+++img
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\
+++mail
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\mail\
+++scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\
+++about.html
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\about.html
+++blog.html
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\blog.html
+++cleaning-services-website-template.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\cleaning-services-website-template.jpg
+++contact.html
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\contact.html
+++index.html
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\index.html
+++LICENSE.txt
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\license.txt
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery\license.txt
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++project.html
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\project.html
+++READ-ME.txt
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\read-me.txt
+++service.html
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\service.html
+++single.html
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\single.html
+++site.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\css\site.css
+++deneme.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\js\deneme.js
+++girisyap.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\js\girisyap.js
+++OzgecmisEkle.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\js\ozgecmisekle.js
+++site.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\js\site.js
+++bootstrap
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\
+++jquery
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery\
+++jquery-validation
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation-unobtrusive\
+++style.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\css\style.css
+++about.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\about.jpg
+++blog-1.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\blog-1.jpg
+++blog-2.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\blog-2.jpg
+++blog-3.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\blog-3.jpg
+++carousel-1.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\carousel-1.jpg
+++carousel-2.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\carousel-2.jpg
+++carousel-3.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\carousel-3.jpg
+++emreholding.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\emreholding.jpg
+++feature.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\feature.jpg
+++koc.png
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\koc.png
+++portfolio-1.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\portfolio-1.jpg
+++portfolio-2.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\portfolio-2.jpg
+++portfolio-3.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\portfolio-3.jpg
+++portfolio-4.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\portfolio-4.jpg
+++portfolio-5.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\portfolio-5.jpg
+++portfolio-6.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\portfolio-6.jpg
+++Sabancı_Holding_logo.svg.png
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\sabancı_holding_logo.svg.png
+++sabanci.png
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\sabanci.png
+++Sanko.png
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\sanko.png
+++team-1.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\team-1.jpg
+++team-2.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\team-2.jpg
+++team-3.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\team-3.jpg
+++team-4.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\team-4.jpg
+++testimonial.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\testimonial.jpg
+++testimonial-1.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\testimonial-1.jpg
+++testimonial-2.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\testimonial-2.jpg
+++testimonial-3.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\testimonial-3.jpg
+++user.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\user.jpg
+++main.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\js\main.js
+++counterup
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\counterup\
+++easing
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\easing\
+++isotope
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\isotope\
+++lightbox
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\
+++owlcarousel
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\
+++waypoints
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\waypoints\
+++contact.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\mail\contact.js
+++contact.php
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\mail\contact.php
+++jqBootstrapValidation.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\mail\jqbootstrapvalidation.min.js
+++style.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\style.scss
+++dist
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery\dist\
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\license
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\license
+++LICENSE.md
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++style.min.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\css\style.min.css
+++counterup.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\counterup\counterup.min.js
+++easing.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\easing\easing.js
+++isotope.pkgd.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\isotope\isotope.pkgd.js
+++images
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\images\
+++links.php
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\links.php
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\waypoints\links.php
+++assets
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\assets\
+++owl.carousel.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\owl.carousel.js
+++waypoints.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\waypoints\waypoints.min.js
+++jquery.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++easing.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\easing\easing.min.js
+++isotope.pkgd.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\isotope\isotope.pkgd.min.js
+++lightbox.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\css\lightbox.css
+++close.png
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\images\close.png
+++loading.gif
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\images\loading.gif
+++next.png
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\images\next.png
+++prev.png
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\images\prev.png
+++lightbox.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\js\lightbox.js
+++ajax-loader.gif
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\assets\ajax-loader.gif
+++owl.carousel.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\assets\owl.carousel.css
+++owl.theme.default.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\assets\owl.theme.default.css
+++owl.theme.green.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\assets\owl.theme.green.css
+++owl.video.play.png
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\assets\owl.video.play.png
+++owl.carousel.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\owl.carousel.min.js
+++mixins
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\
+++utilities
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\
+++vendor
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\vendor\
+++_alert.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_alert.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_alert.scss
+++_badge.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_badge.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_badge.scss
+++_breadcrumb.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_breadcrumb.scss
+++_button-group.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_button-group.scss
+++_buttons.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_buttons.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_buttons.scss
+++_card.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_card.scss
+++_carousel.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_carousel.scss
+++_close.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_close.scss
+++_code.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_code.scss
+++_custom-forms.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_custom-forms.scss
+++_dropdown.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_dropdown.scss
+++_forms.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_forms.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_forms.scss
+++_functions.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_functions.scss
+++_grid.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_grid.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_grid.scss
+++_images.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_images.scss
+++_input-group.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_input-group.scss
+++_jumbotron.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_jumbotron.scss
+++_list-group.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_list-group.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_list-group.scss
+++_media.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_media.scss
+++_mixins.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_mixins.scss
+++_modal.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_modal.scss
+++_nav.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_nav.scss
+++_navbar.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_navbar.scss
+++_pagination.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_pagination.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_pagination.scss
+++_popover.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_popover.scss
+++_print.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_print.scss
+++_progress.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_progress.scss
+++_reboot.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_reboot.scss
+++_root.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_root.scss
+++_spinners.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_spinners.scss
+++_tables.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_tables.scss
+++_toasts.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_toasts.scss
+++_tooltip.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_tooltip.scss
+++_transitions.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_transitions.scss
+++_type.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_type.scss
+++_utilities.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_utilities.scss
+++_variables.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\_variables.scss
+++bootstrap.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\bootstrap.scss
+++bootstrap-grid.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\bootstrap-grid.scss
+++bootstrap-reboot.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\bootstrap-reboot.scss
+++bootstrap.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++lightbox.min.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\css\lightbox.min.css
+++lightbox.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\lightbox\js\lightbox.min.js
+++owl.carousel.min.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\assets\owl.carousel.min.css
+++owl.theme.default.min.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\assets\owl.theme.default.min.css
+++owl.theme.green.min.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\lib\owlcarousel\assets\owl.theme.green.min.css
+++_background-variant.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_background-variant.scss
+++_border-radius.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_border-radius.scss
+++_box-shadow.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_box-shadow.scss
+++_breakpoints.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_breakpoints.scss
+++_caret.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_caret.scss
+++_clearfix.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_clearfix.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_clearfix.scss
+++_deprecate.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_deprecate.scss
+++_float.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_float.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_float.scss
+++_gradients.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_gradients.scss
+++_grid-framework.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_grid-framework.scss
+++_hover.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_hover.scss
+++_image.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_image.scss
+++_lists.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_lists.scss
+++_nav-divider.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_nav-divider.scss
+++_reset-text.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_reset-text.scss
+++_resize.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_resize.scss
+++_screen-reader.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_screen-reader.scss
+++_size.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_size.scss
+++_table-row.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_table-row.scss
+++_text-emphasis.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_text-emphasis.scss
+++_text-hide.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_text-hide.scss
+++_text-truncate.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_text-truncate.scss
+++_transition.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_transition.scss
+++_visibility.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\mixins\_visibility.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_visibility.scss
+++_align.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_align.scss
+++_background.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_background.scss
+++_borders.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_borders.scss
+++_display.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_display.scss
+++_embed.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_embed.scss
+++_flex.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_flex.scss
+++_interactions.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_interactions.scss
+++_overflow.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_overflow.scss
+++_position.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_position.scss
+++_screenreaders.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_screenreaders.scss
+++_shadows.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_shadows.scss
+++_sizing.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_sizing.scss
+++_spacing.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_spacing.scss
+++_stretched-link.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_stretched-link.scss
+++_text.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\utilities\_text.scss
+++_rfs.scss
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\scss\bootstrap\scss\vendor\_rfs.scss
+++bootstrap.css.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-grid.css.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.bundle.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.bundle.min.js.map
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++burakfoto.jpg
+i:{ff317b59-5a35-4833-9e5e-4d72161de18e}:c:\users\burak erdem\source\repos\elemanlar.net\elemanlar.net\wwwroot\bigimg\img\burakfoto.jpg
+++OzgecmisViewModel.cs
+i:{90edf5a2-2051-461c-94e5-114bea215e40}:c:\users\burak erdem\source\repos\elemanlar.net\entitylayer\ozgecmisviewmodel.cs

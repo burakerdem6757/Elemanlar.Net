@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ff317b59-5a35-4833-9e5e-4d72161de18e": {
+      "ProjectGuid": "ff317b59-5a35-4833-9e5e-4d72161de18e",
+      "DisplayName": "Elemanlar.net",
+      "ColorIndex": 0
+    },
+    "90edf5a2-2051-461c-94e5-114bea215e40": {
+      "ProjectGuid": "90edf5a2-2051-461c-94e5-114bea215e40",
+      "DisplayName": "EntityLayer",
+      "ColorIndex": 1
+    },
+    "42d16c2c-4db6-4fe1-94eb-bdd0c32408c8": {
+      "ProjectGuid": "42d16c2c-4db6-4fe1-94eb-bdd0c32408c8",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 2
+    },
+    "4dd42752-4106-41f4-a460-4755f9ab8166": {
+      "ProjectGuid": "4dd42752-4106-41f4-a460-4755f9ab8166",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 3
+    },
+    "eef980ae-9099-4b2a-8709-ed7a3d559097": {
+      "ProjectGuid": "eef980ae-9099-4b2a-8709-ed7a3d559097",
+      "DisplayName": "CoreLayer",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

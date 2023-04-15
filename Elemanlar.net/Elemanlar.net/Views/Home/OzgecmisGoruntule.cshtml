@@ -1,0 +1,427 @@
+﻿@model EntityLayer.OzgecmisViewModel
+
+@{
+    ViewData["Title"] = "OzgecmisGoruntule";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="content">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <!-- Profile Image -->
+                <div class="card card-red card-outline">
+                    <div class="card-body box-profile">
+                        <div class="text-center">
+                            <img id="personelIMG" class="profile-user-img img-fluid" style="height:200px;width:240px;" src="@Model.ProfilFotografi" alt="User profile picture">
+                        </div>
+
+                        <h3 class="profile-username text-center mt-3" id="txtname">@Model.Ad &nbsp; @Model.Soyad</h3>
+
+                        <p class="text-muted text-center" id="txIsTanimi"></p>
+
+                        <ul class="list-group list-group-unbordered mb-3">
+                            @*<li class="list-group-item">
+            <b>Yaş</b> <a class="float-right">35</a>
+        </li>*@
+                            <li class="list-group-item">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-sm">
+                                                <div class="input-group-prepend">
+                                                    <span><i class="fa fa-calendar"></i></span>
+                                                </div>
+                                                <label for="exampleInputLokasyon">&nbsp;Yaş</label>
+                                            </div>
+                                            <a>@Model.Yas</a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-sm">
+                                                <div class="input-group-prepend">
+                                                    <span><i class="fa fa-transgender"></i></span>
+                                                </div>
+                                                <label for="exampleInputLokasyon">&nbsp; Cinsiyet</label>
+                                            </div>
+                                            <p>@Model.Cinsiyet</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-sm">
+                                                <div class="input-group-prepend">
+                                                    <span><i class="fa fa-transgender"></i></span>
+                                                </div>
+                                                <label for="exampleInputLokasyon">&nbsp; Unvan</label>
+                                            </div>
+                                            <p>@Model.Unvan</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-sm">
+                                                <div class="input-group-prepend">
+                                                    <span><i class="fa fa-transgender"></i></span>
+                                                </div>
+                                                <label for="exampleInputLokasyon">&nbsp; Ehliyet</label>
+                                            </div>
+                                            <p>@Model.Ehliyet</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-sm">
+                                                <div class="input-group-prepend">
+                                                    <span><i class="fa fa-calendar"></i></span>
+                                                </div>
+                                                <label for="exampleInputLokasyon">&nbsp;Şehir</label>
+                                            </div>
+                                            <a>@Model.Sehir</a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-sm">
+                                                <div class="input-group-prepend">
+                                                    <span><i class="fa fa-transgender"></i></span>
+                                                </div>
+                                                <label for="exampleInputLokasyon">&nbsp; İlçe</label>
+                                            </div>
+                                            <p>@Model.Ilce</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-sm">
+                                                <div class="input-group-prepend">
+                                                    <span><i class="fa fa-transgender"></i></span>
+                                                </div>
+                                                <label for="exampleInputLokasyon">&nbsp; Telefon</label>
+                                            </div>
+                                            <p>@Model.Telefon</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-sm">
+                                                <div class="input-group-prepend">
+                                                    <span><i class="fa fa-transgender"></i></span>
+                                                </div>
+                                                <label for="exampleInputLokasyon">&nbsp; Eposta</label>
+                                            </div>
+                                            <p>@Model.Eposta</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="form-group">
+                                    <div class="input-group input-group-sm">
+                                        <div class="input-group-prepend">
+                                            <span><i class="fa fa-industry"></i></span>
+                                        </div>
+                                        <label for="exampleInputLokasyon">&nbsp;Lokasyon</label>
+                                    </div>
+                                    <p @Model.Ilce</p>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="form-group">
+                                    <div class="input-group input-group-sm">
+                                        <div class="input-group-prepend">
+                                            <span><i class="fas fa-building"></i></span>
+                                        </div>
+                                        <label for="exampleInputLokasyon">&nbsp;Meslek</label>
+                                    </div>
+                                    <p id="lblDepartman">@Model.Unvan</p>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="form-group">
+                                    <div class="input-group input-group-sm">
+                                        <div class="input-group-prepend">
+                                            <span><i class="fas fa-building"></i></span>
+                                        </div>
+                                        <label for="exampleInputLokasyon">&nbsp;Maaş Beklentisi</label>
+                                    </div>
+                                    <p id="lblDepartman">@Model.MaasBeklentisi</p>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <button onclick="personellistesiyonlendir()" class="btn btn-block btn-sm btn-coral">&nbsp;Personel Listesi</button>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <button type="button" class="btn btn-block btn-sm" id="btnMuayene" style="color:white; background-color:darkorchid" data-toggle="modal" data-target="#modal"><i class="fas fa-briefcase-medical"></i>&nbsp;Muayene</button>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                        @*<a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>*@
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- /.col -->
+            @*<div class="col-md-9">
+                <!doctype html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Jugal Manjeshwar - Resume</title>
+                    <link rel="stylesheet" href="style.css">
+                    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Source+Sans+Pro:400,400i" rel="stylesheet">
+                    <body>
+                        <div class="page">
+                            <div class="section row">
+                                <h1 class="col"><span style="font-weight:700">Jugal</span> Manjeshwar</h1>
+                                <div class="contact-info col-right">
+                                    <div>201 . 920 . 0729</div>
+                                    <div><a href="mailto:jugalm@nyu.edu">jugalm@nyu.edu</a></div>
+                                    <div><a href="http://jugalm.com">jugalm.com</a></div>
+                                </div>
+                            </div>
+                            <div class="section row">
+                                <h2 class="col">Interests</h2>
+                                <div class="section-text col-right"><span class="key">Intelligent systems</span> <span class="key">Machine learning</span> <span class="key">Data visualization</span> <span class="key">Computer vision &amp; graphics</span> <span class="key">Information networks</span> <span class="key">User experience / interaction design</span> </div>
+                            </div>
+                            <div class="section row">
+                                <h2 class="col">Skills</h2>
+                                <div class="section-text col-right row">
+                                    <ul class="skills" style="width:25%">
+                                        <li>C++, Java</li>
+                                        <li>Javascript</li>
+                                        <li>Python, PHP</li>
+                                        <li>HTML5, CSS3, SVG</li>
+                                    </ul>
+                                    <ul class="skills" style="width:35%">
+                                        <li>Qt, OpenGL/SDL, V8</li>
+                                        <li>jQuery, backbone, node</li>
+                                        <li>Django, App engine</li>
+                                        <li>LESS, Bootstrap, d3.js</li>
+
+                                    </ul>
+                                    <ul class="skills">
+                                        <li>MySQL, MongoDB</li>
+                                        <li>grunt, jasmine</li>
+                                        <li>Flash, Actionscript 3</li>
+                                        <li>Git, Photoshop, Illustrator</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="section row">
+                                <h2 class="col">Eğitim</h2>
+                                <div class="section-text col-right">
+                                    <h3><span class="emph">@Model.EgitimDurumu</span></h3>
+                                    <div>@Model.EgitimBaslangicTarihi/@Model.EgitimBitisTarihi</div>
+                                    <div class="row">
+                                        <div class="col-right light">@Model.DevamDurumu</div>
+                                    </div>
+                                </div>
+                                <div class="section-text col-right">
+                                    <h3><span class="emph">Bachelor of Engineering</span> in Computer Engineering</h3>
+                                    <div>University of Pune</div>
+                                    <div class="row">
+                                        <div class="col light">Pune, India</div>
+                                        <div class="col-right light	">September 2008 - July 2012	</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section row">
+                                <h2 class="col">Experience</h2>
+                                <div class="section-text col-right">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>Google</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row subsection">
+                                        <div class="emph col">Full stack engineer</div>
+                                        <div class="col-right light">July 2015 - Present</div>
+                                    </div>
+                                    <ul class="desc">
+                                        <li>YouTube Trust and Safety</li>
+                                </div>
+                                <div class="section-text col-right">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>Emotion - New York University</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row subsection">
+                                        <div class="emph col">Research Assistant, Full Stack Engineer</div>
+                                        <div class="col-right light">June 2014 - August 2014</div>
+                                    </div>
+                                    <div>
+                                        Started out as a tool to help collect data for a research project - <i>Lingering emotion in the experience of beauty</i>, is now a comprehensive app that simulates every step of the experiment and automates the entire data collection process.
+                                    </div>
+                                    <ul class="desc">
+                                        <li>Designed and developed a mobile-friendly responsive web app from the ground-up that tracks touch events to calibrate and measure the distance between two fingers and detects gestures.</li>
+                                        <li>Ported the web app as a native mac OS app which involved writing a native node.js module that detects and generates DOM touch events from a mac trackpad.</li>
+                                        <li>Developed a RESTful server that extracts speech from recorded audio tracks by trimming background silence and normalizing gain.</li>
+                                        <li>Developed a proxy service to allow users to stream on-demand audio from a music streaming service on a mobile web app.</li>
+                                        <li>Built interactive audio and visual feedback using the HTML5 web audio api and SVG.</li>
+                                </div>
+                            </div>
+                            <div class="section row">
+                                <h2 class="col">Projects</h2>
+                                <div class="section-text col-right">
+                                    <h3><a href="https://github.com/nuterian">github.com/nuterian</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="section row">
+                                <h2 class="col">Honors</h2>
+                                <div class="section-text col-right">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>SEARCC International School's Software Competition</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row subsection">
+                                        <div class="emph col">Algorithmic Programming Competition</div>
+                                        <div class="col-right light">Fall 2007</div>
+                                    </div>
+                                    <div class="desc">
+                                        Organized by the Computer Society of India, was part of a team of three to represent our region at
+                                        the national level finals. Finished <span class="emph">second</span> by solving the maximum number of problems.
+                                    </div>
+                                </div>
+                                
+                                <div class="section-text col-right">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>Codechef Gamer's Challenge</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row subsection">
+                                        <div class="emph col">Actionscript/HTML5 Game Development Competition</div>
+                                        <div class="col-right light">Summer 2009</div>
+                                    </div>
+                                    <div class="desc">Developed a prototypical game using Actionscript on the Flash platform, in less than 48 hours. Received an honorable mention award for the <span class="emph">Best Looking Game</span>.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </body>
+                </head>
+            </html>
+
+        </div>*@
+    </div>
+</div>
+</section>
+<div class="modal" id="modal" style="display: none;" aria-hidden="true">
+
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Muayeneler</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-sm btn-info " onclick="PeriyodikYonlendirme(Id)" title="Periyodik Muayene" id="btnperiyodik"><i class="fas fa-file-medical" aria-hidden="true"></i>&nbsp;Periyodik Muayene</button>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-sm btn-success" onclick="IseGirisYonlendirme(Id)" title="İşe Giriş Muayene" id="btnisegiris"><i class="fas fa-file-medical" aria-hidden="true"></i>&nbsp;İşe Giriş Muayene</button>
+                    </div>
+
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-sm btn-warning " onclick=" PoliklinikYonlendirme(Id)" title="Poliklinik Muayene" id="btnpoliklinik"><i class="fas fa-file-medical" aria-hidden="true"></i>&nbsp;Poliklinik Muayene</button>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <button class="btn btn-sm btn-danger" onclick="GebeYonlendirme(Id)" title="Gebe İzlem" id="btngebe" style="display:none"><i class="fas fa-baby" aria-hidden="true"></i>&nbsp;Gebe İzlem</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function SayfaDoldur() {
+        $.ajax({
+            type: "GET",
+            url: "/Home/OzgecmisGetir",
+            dataType: "json",
+            async: false,
+            data: null,
+            success: function (result) {
+
+                empData = data;
+                LocationId = data.empVmodel.LocationId;
+
+                if (data.empmodel.MedyaURL != null) {
+                    $("#personelIMG").attr("src", data.empmodel.MedyaURL);
+                }
+                else {
+                    $("#personelIMG").attr("src", "/Content/profil.png");
+                }
+
+                $("#txtname").html(data.empVmodel.FullName);
+                $("#txIsTanimi").html(data.empVmodel.JobDescription);
+
+                if (data.empVmodel.Gender == 'E') {
+                    $("#lblCinsiyet").html("Erkek");
+                }
+                else if (data.empVmodel.Gender == 'K') {
+                    $("#lblCinsiyet").html("Kadın");
+                }
+
+                $("#txtYas").html(data.empmodel.Age);
+                $("#lblDepartman").html(data.empVmodel.Department);
+                $("#lblLokasyon").html(data.empmodel.LocationName);
+                $("#txtTCKNo").val(data.empVmodel.TCKNo);
+                $("#txtSicilNo").val(data.empVmodel.RegistryNumber);
+                $("#txtAd").val(data.empVmodel.FirstName);
+                $("#txtSoyad").val(data.empVmodel.LastName);
+                if (data.empVmodel.Gender == 'E') {
+                    $("#txtCinsiyet").val("Erkek");
+                }
+                else if (data.empVmodel.Gender == 'K') {
+                    $("#txtCinsiyet").val("Kadın");
+                }
+                $("#txtDogumTarihi").val(CsharpDateToStringDateyyyymmdd(data.empVmodel.BirthDate));
+                $("#txtEgitimDurumu").val(data.empVmodel.Education);
+                $("#txtDogumYeri").val(data.empVmodel.BirthPlace);
+                $("#txtMedeniHal").val(data.empVmodel.MartialStatus);
+                $("#txtCocukSayisi").val(data.empVmodel.Childrens);
+
+                for (var i = 0; i < data.riskGroups.length; i++) {
+                    $("#drdRiskGrubu").find("option[value='" + data.riskGroups[i].RiskGroupId + "']").prop('selected', true).change();
+
+                }
+
+                $("#txtIseGiris").val(CsharpDateToStringDateyyyymmdd(data.empVmodel.JobStartDate));
+                $("#txtGecerliGorevBaslangic").val(CsharpDateToStringDateyyyymmdd(data.empVmodel.JobStartDate));
+                $("#txtGorev").val(data.empVmodel.JobTitle);
+                $("#txtDepartman").val(data.empVmodel.Department);
+                $("#txtLokasyon").val(data.empVmodel.Department);
+                $("#txtYaptigiIs").val(data.empVmodel.JobDescription);
+                $("#txtKanGrubu").val(data.empVmodel.BloodType);
+                $("#txtSigara").val(data.SigaraDurum);
+                $("#txtAlkol").val(data.AlkolDurum);
+                $("#txtAsi").val(data.asilar);
+
+                $("#txtAdres").val(data.empVmodel.HomeAddress);
+                $("#txtEposta").val(data.empVmodel.Email);
+                $("#txtTelefon").val(data.empVmodel.PhoneNumber);
+
+            },
+            error: function (e) {
+
+                console.log(e);
+            },
+        });
+
+
+
+
+
+    }
+</script>

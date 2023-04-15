@@ -1,0 +1,317 @@
+﻿@model EntityLayer.IsIlanlariViewModel
+
+@{
+    ViewData["Title"] = "IlaniIncele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&display=swap" rel="stylesheet">
+
+<section class="main-content-w3layouts-agileits">
+
+    <div class="row">
+
+        <div class="col-md-3 text-center mt-4">
+            <div class="col-md-12" style="margin-left: 35px;">
+                <img src="@Model.FirmaFoto" style="width: 300px; height: 201px;">
+            </div>
+            <div class="container-fluid py-5 text-center">
+                <div class="container">
+                    <div class="row align-items-end mb-4">
+                        <div class="col-lg-12 text-center">
+                            <h1 class="section-title mb-3">@Model.FirmaIsmi</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12" style="margin-left:51px;">
+                @Model.FirmaHakkında
+            </div>
+        </div>
+
+        <div class="col-md-9">
+
+            <div class="container-fluid py-5 text-center">
+                <div class="container">
+                    <div class="row align-items-end mb-4">
+                        <div class="col-lg-12 text-center">
+                            <h1 class="section-title mb-3">@Model.IlanIsmi</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid py-5 text-center">
+                <div class="container">
+                    <div class="row align-items-end mb-4">
+                        <div class="col-lg-6-12">
+                            <h4 class="section-title mb-3">@Model.IlanIcerigi</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid py-5 text-center">
+                <div class="container">
+                    <div class="row buttonn">
+                        <div class="col-md-4" id="basvurubutonu">
+                            <a href="" class="btn btn-primary mr-3 d-none d-lg-block" data-toggle="modal" data-target="#modalBasvuru">Başvuru Yap</a>
+                        </div>
+                        <div class="col-md-4" style="display:none" id="basvurugericekbutonu">
+                            <a href="" style=" background-color:red" onclick="BasvurunuGeriCek()" class="btn btn-primary mr-3 d-none d-lg-block">Başvurunu geri çek</a>
+                        </div>
+                        <div class="col-md-4" id="favoriilanlar">
+                            <a href="" class="btn btn-primary mr-3 d-none d-lg-block" onclick="IlaniFavoriyeAl()">Favori İlanlarına Kaydet</a>
+                        </div>
+                        <div class="col-md-4" style="display:none" id="favorilerdencikar">
+                            <a href="" onclick="FavoriIlanKaldir()" class="btn btn-primary mr-3 d-none d-lg-block" style="background-color:red">Favorilerden çıkar</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="" class="btn btn-primary mr-3 d-none d-lg-block" data-toggle="modal" data-target="#modalDavetler" style=" background-color:red">İlanı Şikayet Et</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modalDavetler" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">İlanı Şikayet Et</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+
+
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Şikayet Sebebi</label>
+                                        <div class="input-group mb-3">
+                                            <textarea id="txtSikayet" rows="4" class="form-control form-control-sm"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-2" id="sikayetkaydet">
+                                        <a href="" class="btn btn-primary mr-3 d-none d-lg-block" onclick="IlaniSikayetEt()">Gönder</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="modalBasvuru" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Basvuru</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+
+
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Maaş Beklentiniz</label>
+                                        <div class="input-group mb-3">
+                                            <textarea id="txtMaas" rows="2" class="form-control form-control-sm"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-2" id="maasbeklentikaydet">
+                                        <a href="" class="btn btn-primary mr-3 d-none d-lg-block"  onclick="BasvuruKaydet()">Gönder</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+    <row>
+
+    </row>
+
+</section>
+
+<style>
+    .buttonn {
+        right: 95px;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        if (@Model.BasvurulmusIlanStatus == 1) {
+            $("#basvurubutonu").show();
+            $("#basvurugericekbutonu").hide();
+        }
+        else {
+            $("#basvurubutonu").hide();
+            $("#basvurugericekbutonu").show();
+        }
+        if (@Model.FavoriIlanStatus == 1) {
+
+            $("#favoriilanlar").show();
+            $("#favorilerdencikar").hide();
+
+        }
+        else {
+            $("#favoriilanlar").hide();
+            $("#favorilerdencikar").show();
+        }
+
+
+    });
+
+    function BasvuruKaydet() {
+
+        var ilanId = @Model.IlanId;
+        var ilanbaslik = "deneme";
+        var basvurulmatarihi = Date.now();
+        var Status = 0;
+        var model = { IlanId: ilanId, IlanBaslik: ilanbaslik, BasvurulmaTarihi: basvurulmatarihi, Status: Status};
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/BasvuruKaydet",
+            dataType: "json",
+            async: false,
+            data: model,
+            success: function (result) {
+                if (result.completed == true) {
+                    $("#basvurubutonu").hide();
+                    $("#basvurugericekbutonu").show();
+
+                    alert("Basvuru yapılmıştır.");
+
+                }
+            },
+            error: function (e) {
+                console.log(e);
+            },
+        });
+
+    }
+
+    function IlaniFavoriyeAl() {
+
+        var ilanId = @Model.IlanId;
+        var Status = 0;
+
+        var model = { IlanId: ilanId,Status: Status };
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/FavoriIlanKaydet",
+            dataType: "json",
+            async: false,
+            data: model,
+            success: function (result) {
+                if (result.completed == true) {
+                    $("#favoriilanlar").hide();
+                    $("#favorilerdencikar").show();
+
+                    alert("Favori İlanlara eklendi.");
+
+                }
+            },
+            error: function (e) {
+
+                console.log(e);
+            },
+        });
+    }
+
+    function BasvurunuGeriCek() {
+        var ilanId = @Model.IlanId;       
+
+        var model = { IlanId: ilanId};
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/BasvurunuGeriCek",
+            dataType: "json",
+            async: false,
+            data: model,
+            success: function (result) {
+                if (result.completed == true) {
+
+                    alert("Basvuru Geri Çekildi.");
+
+                }
+            },
+            error: function (e) {
+
+                console.log(e);
+            },
+        });
+    }
+
+    function FavoriIlanKaldir() {
+        var ilanId = @Model.IlanId;       
+
+        var model = {IlanId: ilanId};
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/FavoriIlanKaldir",
+            dataType: "json",
+            async: false,
+            data: model,
+            success: function (result) {
+                if (result.completed == true) {
+
+                    alert("Favori İlanlardan Kaldırıldı.");
+
+                }
+            },
+            error: function (e) {
+
+                console.log(e);
+            },
+        });
+    }
+
+    function IlaniSikayetEt() {
+
+        var ilanId = @Model.IlanId;
+        var sikayet = $("#txtSikayet").val();
+        var Status = 0;
+        var model = { IlanId: ilanId,Sikayet: sikayet, Status: Status };
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/IlaniSikayetEt",
+            dataType: "json",
+            async: false,
+            data: model,
+            success: function (result) {
+                if (result.completed == true) {
+                    
+                    alert("Şikayetiniz tarafımıza ulaşmıştır. En kısa sürede size geri dönüş yapıcağız. İyi günler");
+
+                }
+            },
+            error: function (e) {
+                console.log(e);
+            },
+        });
+
+    }
+
+</script>

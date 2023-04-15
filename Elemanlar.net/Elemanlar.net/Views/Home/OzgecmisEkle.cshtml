@@ -1,0 +1,1004 @@
+﻿<style>
+
+
+    .fotoBtn {
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .fotoBtn input[type=file] {
+            left: 0;
+            top: 0;
+            opacity: 0;
+            position: absolute;
+            font-size: 90px;
+            height: 0px;
+            width: 0px;
+        }
+
+    .btn-upload {
+        background-color: #ff4444;
+        border: 3px solid #000;
+        color: #000;
+        padding: 10px 25px;
+        border-radius: 10px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .hide {
+        visibility: hidden
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: #444;
+        /* line-height: 28px !important;*/
+    }
+
+    .select2 {
+        width: 100% !important;
+    }
+
+    .searchBar {
+        list-style: none;
+        padding: 0px;
+        width: 250px;
+        margin: 0;
+    }
+
+        .searchBar li {
+            background: lavender;
+            padding: 4px;
+            margin-bottom: 1px;
+        }
+
+            .searchBar li:nth-child(even) {
+                background: cadetblue;
+                color: white;
+            }
+
+            .searchBar li:hover {
+                cursor: pointer;
+            }
+
+    /*    .select2-selection {
+                    height: 38px !important;
+                }*/
+
+    /*.select2-container .select2-selection--single {
+                    height: 38px !important;
+                }*/
+</style>
+<section class="content mt-3">
+    <form role="form">
+        <div class="container-fluid">
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <!-- Temel Bilgiler-->
+                    <div class="card card-danger  card-outline">
+                        <div class="card-header card-header-admin">
+                            <h3 class="card-title card-title-admin" style="color:black !important">Temel Bilgiler</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse"></button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row mt-2">
+                                <div class="col-md-12">
+                                    <div class="input-group mb-3">
+                                        <div class="col-sm-12 col-md-12 col-lg-12">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                                    <label>Profil Fotoğrafı Yükle</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                                @*<label>Görsel</label>*@
+                                                <div class="row ml-1">
+                                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                                        <div class="input-group fotoBtn yes ">
+                                                            <span class="upload-btn-wrapper btn_upload">
+                                                                <button class="btn-upload" type="button" onclick="document.getElementById('inpBelge').click();"><i class="fa fa-camera"></i></button>
+                                                                <input medyaid="" onchange="resimYukleTkrAlan(this)" type="file" id="inpBelge" title="" class="input-img" accept="image/*" src="" />
+                                                            </span>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                                        <a href="javascript:;" id="egitimGorselhrefURL">
+                                                            <img id="egitimGorselURL" src="" class="img-fluid" style="width:150px;height:150px; display:none;" medyaid="">
+                                                        </a>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label>Adınız</label>
+                                    <div class="input-group  mb-3">
+                                        <input type="text" class="form-control form-control-sm" id="txtAd">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <label>Soyadınız</label>
+                                    <div class="input-group  mb-3">
+                                        <input type="text" class="form-control form-control-sm" id="txtSoyad">
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <label>Unvan</label>
+                                    <div class="input-group  mb-3">
+                                        <input type="text" class="form-control form-control-sm" id="txtUnvan">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <label>E-Posta</label>
+                                    <div class="input-group  mb-3">
+                                        <input type="text" class="form-control form-control-sm" id="txtEposta">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <label>Doğum Tarihi</label>
+                                    <div class="input-group mb-3">
+                                        <input type="date" class="form-control form-control-sm" id="dtDogumTarihi">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label>Web Sayfam</label>
+                                    <div class="input-group  mb-3">
+                                        <input type="text" class="form-control form-control-sm" id="txtWebSayfam">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-3">
+                                    <label>İl</label>
+                                    <div class="input-group input-group-select mb-3">
+                                        <select id="drdİl" class="form-control form-control-sm field-select2">
+                                            <option disabled>Seçiniz</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <label>İlçe</label>
+                                    <div class="input-group input-group-select mb-3">
+                                        <select id="drdIlce" class="form-control form-control-sm field-select2">
+                                            <option disabled>Seçiniz</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">                                       
+                                        <div class="col-md-8">
+                                            <label>Telefon</label>
+                                            <div class="input-group  mb-3">
+                                                <input type="text" class="form-control form-control-sm" id="txtBirinciTelefon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row">                                      
+                                        <div class="col-md-12">
+                                            <label>Özet Bilgi</label>
+                                            <div class="input-group mb-3">
+                                            </div>
+                                            <textarea id="txtOzetBilgi" rows="4" class="form-control form-control-sm"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <!-- Temel Bilgiler-->
+                    <div class="card card-danger card-outline">
+                        <div class="card-header card-header-admin">
+                            <h3 class="card-title card-title-admin" style="color:black !important">Ek Bilgiler</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-5 col-sm-3">
+                                    <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
+                                        <a class="redRowTab nav-link active" id="vert-tabs-home-tab" data-toggle="pill" href="#ozelBigiler" role="tab" aria-controls="vert-tabs-home" aria-selected="true">Özel Bilgiler</a>
+                                        <a class="redRowTab nav-link" id="vert-tabs-profile-tab" data-toggle="pill" href="#egitimBilgileri" role="tab" aria-controls="vert-tabs-profile" aria-selected="false">Eğitim Bilgileri</a>
+                                        <a class="redRowTab nav-link" id="vert-tabs-messages-tab" data-toggle="pill" href="#isDeneyimleri" role="tab" aria-controls="vert-tabs-messages" aria-selected="false">İş Deneyimleri</a>
+                                        <a class="redRowTab nav-link" id="vert-tabs-settings-tab" data-toggle="pill" href="#yabanciDil" role="tab" aria-controls="vert-tabs-settings" aria-selected="false">Yabancı Dil</a>
+                                        <a class="redRowTab nav-link" id="vert-tabs-settingss-tab" data-toggle="pill" href="#sertifikaBilgileri" role="tab" aria-controls="vert-tabs-settingss" aria-selected="false">Serfitika Bilgileri</a>
+                                        <a class="redRowTab nav-link" id="vert-tabs-settingsss-tab" data-toggle="pill" href="#bilgisayarBilgileri" role="tab" aria-controls="vert-tabs-settingsss" aria-selected="false">Bilgisayar Bilgileri</a>
+                                        <a class="redRowTab nav-link" id="vert-tabs-settingssss-tab" data-toggle="pill" href="#yetenekler" role="tab" aria-controls="vert-tabs-settingssss" aria-selected="false">Yetenekler</a>
+                                        <a class="redRowTab nav-link" id="vert-tabs-settingsssssaaaa-tab" data-toggle="pill" href="#referanslar" role="tab" aria-controls="vert-tabs-settingsssssaaaa" aria-selected="false">Referanslar</a>
+                                        <a class="redRowTab nav-link" id="vert-tabs-settingsssssaaaaa-tab" data-toggle="pill" href="#hobiler" role="tab" aria-controls="vert-tabs-settingsssssaaaaa" aria-selected="false">Hobiler ve İlgi Alanları</a>
+                                        <a class="redRowTab nav-link" id="vert-tabs-settingssssaaaaaaaa-tab" data-toggle="pill" href="#Eklemekİstedikleriniz" role="tab" aria-controls="vert-tabs-settingssss" aria-selected="false" style="display:none">Eklemek İstedikleriniz</a>
+
+                                    </div>
+                                </div>
+                                <div class="col-7 col-sm-9">
+                                    <div class="tab-content" id="vert-tabs-tabContent">
+                                        <div class="tab-pane text-left fade show active" id="ozelBigiler" role="tabpanel" aria-labelledby="vert-tabs-home-tab">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>Cinsiyet</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <select id="drdCinsiyet" class="form-control form-control-sm field-select2">
+                                                                            <option selected disabled>Seçiniz</option>
+                                                                            <option value=1>Erkek</option>
+                                                                            <option value=2>Kadın</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <label>Ehliyet</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <select id="drdEhliyet" class="form-control form-control-sm field-select2">
+                                                                            <option selected disabled>Seçiniz</option>
+                                                                            <option value=1>Var</option>
+                                                                            <option value=2>Yok</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>Askerlik Durumu</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <select id="drdAskerlikDurumu" class="form-control form-control-sm field-select2">
+                                                                            <option selected disabled>Seçiniz</option>
+                                                                            <option value=1>Yapıldı</option>
+                                                                            <option value=2>Tecilli</option>
+                                                                            <option value=3>Muaf</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <label>Net Maaş Beklentisi</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <input id="drdNetMaasBeklentisi" type="text" class="form-control form-control-sm" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade tkrAlanKapsar yukariTkrAlan" id="egitimBilgileri" role="tabpanel" aria-labelledby="vert-tabs-profile-tab">
+                                            <div class="row mt-3 tekrarliAlan">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">                                                            
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>Eğitim Durumu</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <input type="text" class="form-control form-control-sm" id="txtEğitimDurumu">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <label>Başlangıç Tarihi</label>
+                                                                    <div class="input-group mb-3">
+                                                                        <input type="date" class="form-control form-control-sm" id="dtBaslangicTarihiEgitimDurum_001">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4" id="divEgitimBitis">
+                                                                    <label>Bitiş Tarihi</label>
+                                                                    <div class="input-group mb-3">
+                                                                        <input type="date" class="form-control form-control-sm" id="dtBitisTarihiEgitimDurum_001">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <label>Devam Durumu</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <select id="drdDevamDurumu_0001" class="form-control form-control-sm field-select2" onchange="mezuniyetDurumu(this)">
+                                                                            <option value=0>Seçiniz</option>
+                                                                            <option value=1>Devam Ediyorum</option>
+                                                                            <option value=2>Mezun</option>
+                                                                            <option value=3>Terk</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    @*<div class="form-group clearfix mb-4">
+                                                                        <div class="">
+                                                                        <input type="radio" id="rdDevamEdiyorum_0001" name="egitimdevam_0001">
+                                                                        <label>
+                                                                        Devam Ediyorum
+                                                                        </label>
+                                                                        </div>
+                                                                        <div class="">
+                                                                        <input type="radio" id="rdTerk_0001" name="egitimdevam_0001">
+                                                                        <label>
+                                                                        Terk
+                                                                        </label>
+                                                                        </div>
+                                                                        </div>*@
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">                                                                
+                                                                <div class="col-md-6">
+                                                                    <label>Diploma Notu</label>
+                                                                    <div class="input-group  mb-3">
+                                                                        <input type="text" class="form-control form-control-sm" id="txtDiplomaNotu">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                        
+                                                            
+                                                            
+                                                            
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade tkrAlanKapsar yukariTkrAlan" id="isDeneyimleri" role="tabpanel" aria-labelledby="vert-tabs-messages-tab">
+                                            <div class="row tekrarliAlan">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">                                                            
+                                                            <div class="row mt-2">
+                                                                <div class="col-md-6">
+                                                                    <label>Firma Adı</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <input alanId="0" tabloId="0" type="text" id="drdFirmaAdı" class="form-control form-control-sm field-select2" style=" padding: 5px; width: 250px;letter-spacing: 1px;" />
+                                                                        @*<input id="drdValFirmaAdıVal" style="display: none" />*@
+                                                                    </div>
+                                                                    @*<ul class="searchBarUl" id="searchResult"></ul>*@
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <label>Pozisyon</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <input alanId="0" tabloId="0" type="text" id="drdPozisyon" class="form-control form-control-sm field-select2" style="padding: 5px; width: 250px;letter-spacing: 1px;" />
+                                                                        @*<input id="drdValPozisyonVal" style="display: none" />*@
+                                                                    </div>
+                                                                    @*<ul class="searchBarUl" id="searchResult2"></ul>*@
+                                                                </div>
+                                                            </div>
+                                                            <div class="row" style=" clear:both;">
+                                                                <div class="col-md-4">
+                                                                    <label>Başlangıç Tarihi</label>
+
+                                                                    <div class="input-group mb-3">
+                                                                        <input type="date" class="form-control form-control-sm" id="dtBaslangicTarihiFirma">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4" id="BitisTarihiGetir">
+                                                                    <label>Bitis Tarihi</label>
+                                                                    <div class="input-group mb-3">
+                                                                        <input type="date" class="form-control form-control-sm" id="dtBitisTarihiFirma">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <label>Çalışma Durumu</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <select id="drdCalismaDurumu_0001" onchange="calismaDurumuChange(this)" class="form-control form-control-sm field-select2">
+                                                                            <option value="0">Seçiniz</option>
+                                                                            <option value="1">Çalışıyorum</option>
+                                                                            <option value="2">Çalışmıyorum</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>Firma Sektörü</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <select id="drdFirmaSektoru" class="form-control form-control-sm field-select2">
+                                                                            
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <label>Çalışma Şekli</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <select id="drdCalismaSekli" class="form-control form-control-sm field-select2">
+                                                                            <option value="0">Seçiniz</option>
+                                                                            <option value="1">Tam Zamanlı</option>
+                                                                            <option value="2">Part-Time</option>
+                                                                            <option value="3">Uzaktan</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>                                                           
+                                                            <div class="row">                                                               
+                                                                <div class="col-md-6">
+                                                                    <label>Şehir</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <select id="drdIsSehir" class="form-control form-control-sm field-select2">
+                                                                            <option selected disabled>Seçiniz</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <label>İş Tanımı</label>
+                                                                    <div class="input-group mb-3">
+                                                                        <textarea id="txtIsTanımı" rows="4" class="form-control form-control-sm"></textarea>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade tkrAlanKapsar yukariTkrAlan" id="yabanciDil" role="tabpanel" aria-labelledby="vert-tabs-settings-tab">
+                                            <div class="row mt-3 tekrarliAlan">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">                                                           
+                                                            <div class="row mt-2">
+                                                                <div class="col-md-4">
+                                                                    <label>Yabancı Dil</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <select id="drdYabancıdil" class="form-control form-control-sm field-select2">
+                                                                            <option value="0">Seçiniz</option>
+                                                                            <option value="1">İngilizce</option>
+                                                                            <option value="2">Almanca</option>
+                                                                            <option value="3">İtalyanca</option>
+                                                                            <option value="4">Fransızca</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <label>Seviye</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <input type="text" class="form-control form-control-sm" id="txtYabanciDilSeviye">
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade tkrAlanKapsar yukariTkrAlan" id="sertifikaBilgileri" role="tabpanel" aria-labelledby="vert-tabs-settingss-tab">
+                                            <div class="row mt-3 tekrarliAlan">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">
+                                                            <div class="row mt-2">
+                                                                <div class="col-md-4">
+                                                                    <label>Serfitika Adı</label>
+                                                                    @*<div class="input-group input-group-select mb-3">
+                                                                        <select id="drdSerfitikaAdi" class="form-control form-control-sm field-select2">
+                                                                        <option selected disabled>Seçiniz</option>
+                                                                        </select>
+                                                                        </div>*@
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <input alanId="0" tabloid="0" type="text" id="drdSertifikaAdi" class="form-control form-control-sm" style=" padding: 5px; width: 250px;letter-spacing: 1px;" />
+                                                                        @*<input id="drdValSertifikaAdiVal" style="display: none" />*@
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <label>Alındığı Kurum</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                            <input type="text" class="form-control form-control-sm" id="txtSertifikaAlindigiKurum">                                                                    
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <label>Serfitika Tarihi</label>
+                                                                    <div class="input-group mb-3">
+                                                                        <input type="date" class="form-control form-control-sm" id="dtSertifikaTarihi">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade tkrAlanKapsar yukariTkrAlan" id="bilgisayarBilgileri" role="tabpanel" aria-labelledby="vert-tabs-settingsss-tab">
+                                            <div class="row mt-3 tekrarliAlan">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">
+                                                            <div class="row mt-2">
+                                                                <div class="col-md-12">
+                                                                    <textarea id="txtBilgisayarBilgileri" placeholder="Temel Bilgisayar programlarına ek olarak,mesleki bilgini yansıtan diğer programları da bu alanda şirketlerle paylaşmalısın." rows="4" class="form-control form-control-sm"></textarea>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    @*<div class="col-md-12">
+                <div class="card card-red card-outline">
+                <div class="card-body">
+                <div class="row mt-2">
+                <div class="col-md-12">
+                <div class="input-group mb-3">
+                <textarea id="txtBilgisayarBilgileri" placeholder="Temel Bilgisayar programlarına ek olarak,mesleki bilgini yansıtan diğer programları da bu alanda şirketlerle paylaşmalısın." rows="4" class="form-control form-control-sm"></textarea>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>*@
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="yetenekler" role="tabpanel" aria-labelledby="vert-tabs-settingssss-tab">
+                                            <div class="row mt-3">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">
+                                                            <div class="row mt-2">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group mb-3">
+                                                                        <textarea id="txtYetenekler" placeholder="Özgeçmişinde yer alan yeteneklerinizi düzenleyebilirsiniz." rows="4" class="form-control form-control-sm"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                        <div class="tab-pane fade tkrAlanKapsar yukariTkrAlan" id="referanslar" role="tabpanel" aria-labelledby="vert-tabs-settingsssssaaaa-tab">
+                                            <div class="row mt-3 tekrarliAlan">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">
+                                                            <div class="row mt-2">
+                                                                <div class="col-md-8">
+                                                                    <label>Referans Adı Soyadı</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <input type="text" class="form-control form-control-sm" id="txtReferansAdı">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <label>Referans Telefon</label>
+                                                                    <div class="input-group input-group-select mb-3">
+                                                                        <input type="text" class="form-control form-control-sm" id="txtReferansTelefon">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>Referans Unvan</label>
+                                                                    <div class="input-group  mb-3">
+                                                                        <input type="text" class="form-control form-control-sm" id="txtReferansUnvan">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <label>Referans Email</label>
+                                                                    <div class="input-group  mb-3">
+                                                                        <input type="text" class="form-control form-control-sm" id="txtReferansEmail">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>Çalıştığı Firmanın Adı</label>
+                                                                    <div class="input-group  mb-3">
+                                                                        <input type="text" class="form-control form-control-sm" id="txtCalıstıgıFirmanınAdı">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label>Firmadaki Pozisyon</label>
+                                                                    <<div class="input-group  mb-3">
+                                                                        <input type="text" class="form-control form-control-sm" id="txtFirmadakiPozisyon">
+                                                                    </div>
+                                                                </div>
+                                                            </div>                                                          
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="hobiler" role="tabpanel" aria-labelledby="vert-tabs-settingsssssaaaaa-tab">
+                                            <div class="row mt-3">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">
+                                                            <div class="row mt-2">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group mb-3">
+                                                                        <textarea id="txtHobi" placeholder="Bu Kısıma Hobilerinizi Ve İlgi Alanlarınızı yazabilirsiniz." rows="4" class="form-control form-control-sm"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="vert-tabs-settingsssssaaaaaa-tab">
+                                            <div class="row mt-3">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">
+                                                            <div class="row mt-2">
+                                                                <div class="row mt-2">
+                                                                    <div class="col-md-12">
+                                                                        <div class="input-group mb-3">
+                                                                            <div class="col-sm-12 col-md-12 col-lg-12 mt-2">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                                                                        <label>Video Yükle</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                                                                        <label>Kendini bize daha iyi ifade etmek istiyorsan seni daha yakından tanıtan bir video ekleyebilirsin.</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                @*<div class="row">
+                                                                                    <div class="col-sm-12 col-md-12 col-lg-12 mt-1 tekrarliAlan">
+                                                                                    <div class="col-md-2 mt-2" style="text-align: center">
+                                                                                    <div class="input-group mb-3 yes">
+                                                                                    <span class="upload-btn-wrapper btn_upload">
+                                                                                    <i class="fa fa-video"></i>
+                                                                                    <input type="file" id="uploadVideoFile" accept="video/*" />
+                                                                                    </span>
+                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="col-md-10">
+                                                                                    <div id="videoSourceWrapper">
+                                                                                    <video style="width: 100%;" controls src="" id="video1">
+                                                                                    <source src="" id="videoSource" />
+                                                                                    </video>
+                                                                                    <div id="uploadVideoProgressBar" style="height: 5px; width: 1%; background: #2781e9; margin-top: -5px;"></div>
+                                                                                    <label id="VideoUrl" medyaid="" src="" ;></label>
+                                                                                    </div>
+                                                                                    <input type="button" id="removeVideo" value="x" class="btn-rmv1" />
+                                                                                    </div>
+                                                                                    </div>
+                                                                                    </div>*@
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-12 col-md-12 col-lg-12 mt-1">
+                                                                                        <div class="col-md-2 mt-2" style="text-align: center">
+                                                                                            <div class="input-group mb-3 yes fotoBtn">
+                                                                                                <span class="upload-btn-wrapper btn_upload">
+                                                                                                    @*<i class="fa fa-video"></i>*@
+                                                                                                    <button class="btn-upload" type="button" onclick="document.getElementById('uploadVideoFile').click();"><i class="fa fa-video"></i></button>
+                                                                                                    <input type="file" id="uploadVideoFile" accept="video/*" />
+                                                                                                </span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col-md-10">
+                                                                                            <div id="videoSourceWrapper">
+                                                                                                <video style="width: 100%;" controls src="" id="video1">
+                                                                                                    <source src="" id="videoSource" />
+                                                                                                </video>
+                                                                                                <div id="uploadVideoProgressBar" style="height: 5px; width: 1%; background: #2781e9; margin-top: -5px;"></div>
+                                                                                                <label id="VideoUrl" medyaid="" src="" ;></label>
+                                                                                            </div>
+                                                                                            <input type="button" id="removeVideo" value="x" class="btn-rmv1" />
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pdf" role="tabpanel" aria-labelledby="vert-tabs-pdf-tab">
+                                            <div class="row mt-3">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">
+                                                            <div class="row mt-2">
+                                                                <div class="row mt-2">
+                                                                    <div class="col-md-12">
+                                                                        <div class="input-group mb-3">
+                                                                            <div class="col-sm-12 col-md-12 col-lg-12 mt-2">
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                                                                        <label>Doküman Yükle</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="row">
+                                                                                    <div class="col-sm-12 col-md-12 col-lg-12 mt-1">
+                                                                                        <div class="file-container fotoBtn">
+                                                                                            <span class="upload-btn-wrapper btn_upload">
+                                                                                                <button class="btn-upload" type="button" onclick="document.getElementById('inpBelgePdf').click();"><i class="fas fa-file"></i></button>
+                                                                                                <input onchange="PdfKaydet(this)" medyaid="" class="inputfile" type="file" id="inpBelgePdf" title="" class="input-img" accept="application/pdf" src="" />
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <a id="yonlendir" href="" target="_blank"><img style="width: 12%; display: none" id="ImgPreview" src="" alt="pdf icon" lazy="loaded"></a>
+                                                                                    </div>
+                                                                                    @*<div class="row ml-1">
+                                                                                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                                                                                <div class="input-group fotoBtn yes ">
+                                                                                                    <span class="upload-btn-wrapper btn_upload">
+                                                                                                        <button class="btn-upload" type="button" onclick="document.getElementById('inpBelge').click();"><i class="fa fa-camera"></i></button>
+                                                                                                        <input medyaid="" onchange="resimYukleTkrAlan(this)" type="file" id="inpBelge" title="" class="input-img" accept="image/*" src="" />
+                                                                                                    </span>
+
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                                                                                <a href="javascript:;" id="egitimGorselhrefURL">
+                                                                                                    <img id="egitimGorselURL" src="" class="img-fluid" style="width:150px;height:150px" medyaid="">
+                                                                                                </a>
+                                                                                            </div>
+
+
+                                                                                        </div>*@
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="Eklemekİstedikleriniz" role="tabpanel" aria-labelledby="vert-tabs-settingssssaaaaaaaa-tab" style="display:none">
+                                            <div class="row mt-3">
+                                                <div class="col-md-12">
+                                                    <div class="card card-red card-outline">
+                                                        <div class="card-body">
+                                                            <div class="row mt-2">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group mb-3">
+                                                                        <textarea id="txtEklemekİstedikleriniz" placeholder="Eklemek istediğiniz bilgileri girebilirsiniz" rows="4" class="form-control form-control-sm"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4 col-md-12 mt-3">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <button type="submit" class="btn btn-primary submit mb-4" onclick="OzgecmisEkle()">Kaydet</button>
+
+                </div>                
+            </div>
+        </div>
+    </form>
+</section>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        //if (qstring("Id") != 0 || null) {
+        
+        //}
+        SehirleriGetir();
+        IsDeneyimiSehirleriGetir();
+        SektorGetir();
+
+
+    });
+    function SehirleriGetir() {    
+        $.ajax({
+            type: "GET",
+            url: "/Home/OzgecmisSehirleriGetir",
+            dataType: "json",
+            async: false,
+            data: null,
+            success: function (result) {
+               
+                    var html = "<option  value='0'>Seçiniz</option>";
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option  value=' + result[i].sehirId + '>' + result[i].sehir + '</option>';
+                    }
+                    $("#drdİl").html(html);
+
+                
+            },
+            error: function (e) {
+
+                console.log(e);
+            },
+        });
+    }
+
+
+    function IsDeneyimiSehirleriGetir() {
+
+        $.ajax({
+            type: "GET",
+            url: "/Home/OzgecmisSehirleriGetir",
+            dataType: "json",
+            async: false,
+            data: null,
+            success: function (result) {
+
+                var html = "<option  value='0'>Seçiniz</option>";
+                for (var i = 0; i < result.length; i++) {
+                    html += '<option  value=' + result[i].sehirId + '>' + result[i].sehir + '</option>';
+                }
+                $("#drdIsSehir").html(html);
+
+
+            },
+            error: function (e) {
+
+                console.log(e);
+            },
+        });
+    }
+
+    function SektorGetir() {
+
+        $.ajax({
+            type: "GET",
+            url: "/Home/SektorGetir",
+            dataType: "json",
+            async: false,
+            data: null,
+            success: function (result) {
+
+                var html = "<option  value='0'>Seçiniz</option>";
+                for (var i = 0; i < result.length; i++) {
+                    html += '<option  value=' + result[i].sektorId + '>' + result[i].sektor + '</option>';
+                }
+                $("#drdFirmaSektoru").html(html);
+
+
+            },
+            error: function (e) {
+
+                console.log(e);
+            },
+        });
+    }
+
+
+
+    //var drdil = $("#drdİl");
+
+    //drdil.addEventListener("change", function () {
+
+    //    var mod = $("#drdİl").val();
+
+    //    IlceleriGetir(mod);
+
+
+    //});
+
+
+
+    $('#drdİl').on('change', function () {
+
+        var mod = $("#drdİl").val();
+
+        IlceleriGetir(mod);
+    });
+
+
+    function IlceleriGetir(mod) {
+
+        $.ajax({
+            type: "GET",
+            url: "/Home/IlceleriGetir/" + mod,
+            dataType: "json",
+            async: false,
+            data: null,
+            success: function (result) {
+
+                var html = "<option  value='0'>Seçiniz</option>";
+                for (var i = 0; i < result.length; i++) {
+                    html += '<option  value=' + result[i].sehirId + '>' + result[i].ilce + '</option>';
+                }
+                $("#drdIlce").html(html);
+
+
+            },
+            error: function (e) {
+
+                console.log(e);
+            },
+        });
+    }
+
+
+
+    function OzgecmisEkle() {
+
+        var Ad = $("#txtAd").val();
+        var Soyad = $("#txtSoyad").val();
+        var Unvan = $("#txtUnvan").val();
+        var DogumTarihi = $("#dtDogumTarihi").val();
+        var Eposta = $("#txtEposta").val();
+        var WebSayfasi = $("#txtEposta").val();
+        var SehirId = $("#drdİl").val();
+        var IlceId = $("#drdIlce").val();
+        var WebSayfasi = $("#txtEposta").val();
+        var Telefon = $("#txtBirinciTelefon").val();
+        var OzetBilgi = $("#txtOzetBilgi").val();
+        var CinsiyetId = $("#drdCinsiyet").val();
+        var EhliyetId = $("#drdEhliyet").val();
+        var AskerlikDurumuId = $("#drdAskerlikDurumu").val();
+        var MaasBeklentisi = $("#drdNetMaasBeklentisi").val();
+        var EgitimDurumu = $("#txtEğitimDurumu").val();
+        var EgitimBaslangicTarihi = $("#dtBaslangicTarihiEgitimDurum_001").val();
+        var EgitimBitisTarihi = $("#dtBitisTarihiEgitimDurum_001").val();
+        var DevamDurumuId = $("#drdDevamDurumu_0001").val();
+        var DiplomaNotu = $("#txtDiplomaNotu").val();
+        var IsDeneyimiFirmaAdi = $("#drdFirmaAdı").val();
+        var IsDeneyimiPozisyon = $("#drdPozisyon").val();
+        var IsDeneyimiBaslangicTarihi = $("#dtBaslangicTarihiFirma").val();
+        var IsDeneyimiBitisTarihi = $("#dtBitisTarihiFirma").val();
+        var IsDeneyimiCalismaDurumuId = $("#drdCalismaDurumu_0001").val();
+        var IsDeneyimiFirmaSektoruId = $("#drdFirmaSektoru").val();
+        var IsDeneyimiCalismaSekliId = $("#drdCalismaSekli").val();
+        var IsDeneyimiSehirId = $("#drdIsSehir").val();
+        var IsDeneyimiIsTanimi = $("#txtIsTanımı").val();
+        var YabanciDilId = $("#drdYabancıdil").val();
+        var YabanciDilSeviye = $("#txtYabanciDilSeviye").val();
+        var SertifikaAdi = $("#drdSertifikaAdi").val();
+        var AlindigiKurum = $("#txtSertifikaAlindigiKurum").val();
+        var SertifikaTarihi = $("#dtSertifikaTarihi").val();
+        var Yetenek = $("#txtYetenekler").val();
+        var ReferansAdiSoyadi = $("#txtReferansAdı").val();
+        var ReferansTelefon = $("#txtReferansTelefon").val();
+        var ReferansUnvan = $("#txtReferansUnvan").val();
+        var ReferansEmail = $("#txtReferansEmail").val();
+        var ReferansCalistigiFirmaninIsmi = $("#txtCalıstıgıFirmanınAdı").val();
+        var ReferansCalistigiPozisyon = $("#txtFirmadakiPozisyon").val();
+        var Hobiler = $("#txtHobi").val();
+        var BilgisayarProgrami = $("#txtBilgisayarBilgileri").val();
+        var ProfilFotografi = $("#egitimGorselURL").attr("src");
+        var Status = 0;
+        var model = { Ad: Ad, Soyad: Soyad, Unvan: Unvan, DogumTarihi: DogumTarihi, Eposta: Eposta, WebSayfasi: WebSayfasi, SehirId: SehirId, IlceId: IlceId, Telefon, Telefon, OzetBilgi: OzetBilgi, CinsiyetId: CinsiyetId, EhliyetId: EhliyetId, AskerlikDurumuId, AskerlikDurumuId, MaasBeklentisi: MaasBeklentisi, EgitimDurumu: EgitimDurumu, EgitimBaslangicTarihi: EgitimBaslangicTarihi, EgitimBitisTarihi: EgitimBitisTarihi, DevamDurumuId: DevamDurumuId, DiplomaNotu: DiplomaNotu, IsDeneyimiFirmaAdi: IsDeneyimiFirmaAdi, IsDeneyimiPozisyon: IsDeneyimiPozisyon, IsDeneyimiBaslangicTarihi: IsDeneyimiBaslangicTarihi, IsDeneyimiBitisTarihi: IsDeneyimiBitisTarihi, IsDeneyimiCalismaDurumuId: IsDeneyimiCalismaDurumuId, IsDeneyimiFirmaSektoruId: IsDeneyimiFirmaSektoruId, IsDeneyimiCalismaSekliId: IsDeneyimiCalismaSekliId, IsDeneyimiSehirId: IsDeneyimiSehirId, IsDeneyimiIsTanimi: IsDeneyimiIsTanimi, YabanciDilId: YabanciDilId, YabanciDilSeviye: YabanciDilSeviye, SertifikaAdi: SertifikaAdi, AlindigiKurum, AlindigiKurum, SertifikaTarihi: SertifikaTarihi, Yetenek: Yetenek, ReferansAdiSoyadi: ReferansAdiSoyadi, ReferansTelefon: ReferansTelefon, ReferansUnvan: ReferansUnvan, ReferansEmail: ReferansEmail, ReferansCalistigiFirmaninIsmi: ReferansCalistigiFirmaninIsmi, ReferansCalistigiPozisyon: ReferansCalistigiPozisyon, Hobiler: Hobiler, BilgisayarProgrami: BilgisayarProgrami, ProfilFotografi: ProfilFotografi, Status: Status };
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/OzgecmisEkleYeni",
+            dataType: "json",          
+            data: model,
+            success: function (result) {
+                if (result.completed == true) {
+                    alert("Özgecmiş Başarıyla Oluşturulmuştur.");
+
+                }
+            },
+            error: function (e) {
+                console.log(e);
+            },
+        });
+
+    }
+</script>
